@@ -1,0 +1,29 @@
+.botones a {
+    font-size: .7rem;
+}
+
+.bgGrisOscuro {
+    background-color: rgb(45, 45, 45);
+}
+
+.imgDark {
+    filter: brightness(50%);
+}
+
+.fontSmall {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 786px) {
+    .fontSmall {
+        font-size: .8rem;
+    }
+}
+
+    .resultado-container {
+        display: none;
+    }
+
+    .resultado-visible {
+        display: block;
+    }
